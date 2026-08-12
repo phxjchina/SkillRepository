@@ -1,0 +1,11 @@
+# 临时与缓存文件
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 本地打包产物（如需发布请单独管理）
+dist/
+*.zip
