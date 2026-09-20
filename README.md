@@ -14,6 +14,16 @@
 - [`survey-from-local-pdfs/`](./survey-from-local-pdfs/) — **本地 PDF 语料 → 系统文献综述（SLR）**
   把一批本地下载的论文 PDF 当作唯一参考文献库，产出引用零幻觉的中文系统文献综述（SLR 范式）：研究问题、方法论、纳入/排除、数据表、效度威胁一应俱全，内置引用校验（零悬空、零未引）。详见该目录内 `README.md` 与 `SKILL.md`。
 
+- [`graduation-design-advisor/`](./graduation-design-advisor/) — **毕业设计监督导师（全流程跟踪 + 阶段成果审核）**
+  代替指导教师在「选题 → 任务书 → 开题 → 中期 → 论文初稿/定稿 → 评阅/答辩 → 成绩」全流程中监督学生、逐阶段审核成果。含 **9 阶段状态模型 + 队列驾驶舱**（一眼看整届进度、谁缺材料、谁卡住）+ **单人下钻精审** + **主动巡检**（"本周谁卡住了"）；内置任务书 / 开题 / 论文三套审核清单、跨文档五条铁律与抽检红线。脚本：`supervision_cockpit.py`（队列看板，扫本地 .docx 目录一键出整届进度）、`review_docx.py` / `review_thesis.py`（结构初筛，**含表格内容**）、`inject_comments.py`（Word 真批注注入，保留原图与排版、不覆盖已有批注）。详见该目录内 `SKILL.md`。
+
+## 专家（Expert）
+
+除技能外，本仓库还收录可直接安装到 WorkBuddy 专家中心的**专家包**：
+
+- [`graduation-supervisor/`](./graduation-supervisor/) — **毕业设计监督导师（专家包）**
+  把上面的 `graduation-design-advisor` 技能封装为常驻**专家角色**（Agent 型，分类：项目质量）：内嵌该技能副本、专家人设与工作流（`agents/graduation-supervisor.md`）、头像及 `.codebuddy-plugin/plugin.json` 清单，自包含、开箱即用。安装后即可以「毕业设计监督导师」身份对话，代您监督学生并审核每个阶段性成果。详见该目录内 `README.md`。
+
 ## 安装方法
 
 把本仓库克隆到本地，再将需要的技能目录复制到：
