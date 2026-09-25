@@ -1,7 +1,7 @@
 ---
 name: github-skill-repo-sync
 description: 把本机 ~/.workbuddy/skills/ 下的技能同步（clone→复制→commit→push）到彭老师的 GitHub 技能仓库 phxjchina/SkillRepository。当用户说"同步到 github 技能仓库""推送技能""把技能上传到 SkillRepository""同步技能仓库""上传到 github"时使用。覆盖：ghproxy 只读镜像读取、直连 github.com 强制 IPv4、GCM 免 PAT 推送、临时副本损坏时的重建、PAT 权限排查，以及 github.com 被墙时改走 GitHub Data API 的增量推送兜底。
-version: 1.1.0
+version: 1.2.0
 author: 小布
 agent_created: true
 ---
@@ -24,6 +24,22 @@ agent_created: true
 6. **路径**：MSYS 路径 `/c/tmp/x` 传给 git 偶报 `cannot change to ...: No such file or directory`，改用 Windows 形式 `C:/tmp/x`。若某临时副本 `.git` 损坏（git 报 `not a git repository` 但 `ls`/`cat` 正常），**直接重建新 clone**，别纠缠。
 7. **无 `repo` 权限的 PAT 会 403**：`X-OAuth-Scopes` 为空或非本账号的 PAT 都推不动；有 GCM 时根本不需要 PAT。
 8. **sparse-checkout**：旧本地副本可能是 sparse（`/*` + `!/*/`，只检根文件）；**全新 clone 是 full checkout，无此限制**，直接 `git add <子目录>` 即可。
+
+## 判定哪些技能该同步（自建 vs 第三方）
+
+本机 `~/.workbuddy/skills/` 里混合了**自建技能**与**市场 / 官方安装的技能**。只同步自建的，避免把第三方内容推到自己的仓库。
+
+| 判据 | 结论 |
+|---|---|
+| frontmatter 有 `agent_created: true` | **自建** → 同步 |
+| author 含「彭老师 / 小布 / WorkBuddy」 | **自建** → 同步 |
+| frontmatter 含 `license:` / `allowed-tools:` / `tags:` | **第三方**（社区 skill 常带 MIT 声明）→ 跳过 |
+| author 是第三方名（Sahil Lavingia、TPD、RedFoxHub、Tencent Zhuque Lab 等） | **第三方** → 跳过 |
+| 正文含本地特征（彭老师 / 西安航空 / `C:/Users/Administrator`） | 自建佐证 |
+
+扫描要点：读每个 `SKILL.md` 的 frontmatter，正则提取 `name/version/author/agent_created`，再对全文 grep 本地特征词。
+
+⚠️ **坑**：本机大部分 `SKILL.md` 是 **CRLF 行尾**，正则匹配前务必先 `txt.replace('\r\n','\n')`，否则 frontmatter 会整体匹配失败（表现为所有字段都读成空，本次踩过）。
 
 ## 标准流程
 
