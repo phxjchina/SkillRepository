@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1107" height="1058" viewBox="0 0 1107 1058" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="1107" height="1058" fill="#ffffff"/>
+<rect x="0" y="0" width="1107" height="54" fill="#92400e"/>
+<text x="553.5" y="24" font-size="16" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#ffffff" text-anchor="middle">计算机科学与技术专业 · 反向设计大图（系统→子系统→功能→知识点→课程）</text>
+<text x="553.5" y="44" font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#e0e7ff" text-anchor="middle">构造计算机系统五大部件(输入/输出/计算/控制/存储) · 硬件为基·嵌入式为矛·带上位机</text>
+<text x="123.5" y="86" font-size="12.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">待开发系统</text>
+<line x1="16" y1="94" x2="231" y2="94" stroke="#fef3c7" stroke-width="1"/>
+<text x="338.5" y="86" font-size="12.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">子系统</text>
+<line x1="231" y1="94" x2="446" y2="94" stroke="#fef3c7" stroke-width="1"/>
+<text x="553.5" y="86" font-size="12.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">功能</text>
+<line x1="446" y1="94" x2="661" y2="94" stroke="#fef3c7" stroke-width="1"/>
+<text x="768.5" y="86" font-size="12.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">知识点</text>
+<line x1="661" y1="94" x2="876" y2="94" stroke="#fef3c7" stroke-width="1"/>
+<text x="983.5" y="86" font-size="12.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">课程·教学大纲</text>
+<line x1="876" y1="94" x2="1091" y2="94" stroke="#fef3c7" stroke-width="1"/>
+<line x1="16" y1="94" x2="1091" y2="94" stroke="#fef3c7" stroke-width="1.5"/>
+<rect x="16" y="100" width="207" height="190" rx="6" fill="#fef3c7" stroke="#92400e" stroke-width="1.2"/><text font-size="12" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="119.5" y="198.8">J1 嵌入式测控系统</tspan></text>
+<text x="119.5" y="282" font-size="9.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">岗位：嵌入式开发工程师</text>
+<rect x="16" y="290" width="207" height="190" rx="6" fill="#fef3c7" stroke="#92400e" stroke-width="1.2"/><text font-size="12" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="119.5" y="388.8">J2 上位机监控软件</tspan></text>
+<text x="119.5" y="472" font-size="9.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">岗位：桌面/工业软件工程师</text>
+<rect x="16" y="480" width="207" height="190" rx="6" fill="#fef3c7" stroke="#92400e" stroke-width="1.2"/><text font-size="12" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="119.5" y="578.8">J3 计算机硬件系统(五大部件)</tspan></text>
+<text x="119.5" y="662" font-size="9.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">岗位：硬件/体系结构工程师</text>
+<rect x="16" y="670" width="207" height="190" rx="6" fill="#fef3c7" stroke="#92400e" stroke-width="1.2"/><text font-size="12" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="119.5" y="768.8">J4 FPGA数字逻辑与接口系统</tspan></text>
+<text x="119.5" y="852" font-size="9.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">岗位：数字逻辑/ASIC工程师</text>
+<rect x="16" y="860" width="207" height="190" rx="6" fill="#fef3c7" stroke="#92400e" stroke-width="1.2"/><text font-size="12" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="119.5" y="958.8">J5 操作系统内核与驱动</tspan></text>
+<text x="119.5" y="1042" font-size="9.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle">岗位：系统软件工程师</text>
+<rect x="446" y="115.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="134.5">MCU/ARM外设编程</tspan></text>
+<rect x="661" y="115.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="134.4">寄存器 / 中断</tspan></text>
+<rect x="876" y="115.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="134.2">嵌入式系统(核心)；计算机组成与结构</tspan></text>
+<rect x="231" y="111.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="156.5">单片机/ARM开发</tspan></text>
+<path d="M223,195.0 C227.0,195.0 227.0,153.0 231,153.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,132.0 C442.0,132.0 442.0,132.0 446,132.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,132.0 C656.0,132.0 656.0,132.0 661,132.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,132.0 C871.0,132.0 871.0,132.0 876,132.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="157.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="176.5">Linux驱动开发</tspan></text>
+<rect x="661" y="157.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="176.4">内核 / 驱动</tspan></text>
+<rect x="876" y="157.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="176.2">嵌入式Linux(核心)；操作系统</tspan></text>
+<path d="M438,174.0 C442.0,174.0 442.0,174.0 446,174.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,174.0 C656.0,174.0 656.0,174.0 661,174.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,174.0 C871.0,174.0 871.0,174.0 876,174.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="199.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="218.5">传感器/执行器接口</tspan></text>
+<rect x="661" y="199.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="218.4">接口 / 总线</tspan></text>
+<rect x="876" y="199.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="218.2">嵌入式系统；智能感知(共享)</tspan></text>
+<rect x="231" y="195.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="240.5">测控接口与调试</tspan></text>
+<path d="M223,195.0 C227.0,195.0 227.0,237.0 231,237.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,216.0 C442.0,216.0 442.0,216.0 446,216.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,216.0 C656.0,216.0 656.0,216.0 661,216.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,216.0 C871.0,216.0 871.0,216.0 876,216.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="241.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="260.5">逻辑/示波器调试</tspan></text>
+<rect x="661" y="241.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="260.4">调试 / 时序</tspan></text>
+<rect x="876" y="241.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="260.2">FPGA数字系统(接口) J4</tspan></text>
+<path d="M438,258.0 C442.0,258.0 442.0,258.0 446,258.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,258.0 C656.0,258.0 656.0,258.0 661,258.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,258.0 C871.0,258.0 871.0,258.0 876,258.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="305.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="324.5">串口/网络通信</tspan></text>
+<rect x="661" y="305.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="324.4">通信协议 / Socket</tspan></text>
+<rect x="876" y="305.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="324.2">计算机网络；嵌入式通信</tspan></text>
+<rect x="231" y="301.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="346.5">通信与界面</tspan></text>
+<path d="M223,385.0 C227.0,385.0 227.0,343.0 231,343.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,322.0 C442.0,322.0 442.0,322.0 446,322.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,322.0 C656.0,322.0 656.0,322.0 661,322.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,322.0 C871.0,322.0 871.0,322.0 876,322.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="347.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="366.5">GUI与数据可视化</tspan></text>
+<rect x="661" y="347.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="366.4">GUI框架 / 可视化</tspan></text>
+<rect x="876" y="347.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="366.2">软件工程基础；AI辅助编程(共享)</tspan></text>
+<path d="M438,364.0 C442.0,364.0 442.0,364.0 446,364.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,364.0 C656.0,364.0 656.0,364.0 661,364.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,364.0 C871.0,364.0 871.0,364.0 876,364.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="389.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="408.5">本地/数据库存储</tspan></text>
+<rect x="661" y="389.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="408.4">数据库 / 文件</tspan></text>
+<rect x="876" y="389.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="408.2">数据库原理及应用</tspan></text>
+<rect x="231" y="385.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="430.5">数据持久化</tspan></text>
+<path d="M223,385.0 C227.0,385.0 227.0,427.0 231,427.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,406.0 C442.0,406.0 442.0,406.0 446,406.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,406.0 C656.0,406.0 656.0,406.0 661,406.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,406.0 C871.0,406.0 871.0,406.0 876,406.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="431.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="450.5">与下位机联调交付</tspan></text>
+<rect x="661" y="431.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="450.4">联调 / 交付</tspan></text>
+<rect x="876" y="431.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="450.2">软件工程基础；AI辅助编程 §395</tspan></text>
+<path d="M438,448.0 C442.0,448.0 442.0,448.0 446,448.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,448.0 C656.0,448.0 656.0,448.0 661,448.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,448.0 C871.0,448.0 871.0,448.0 876,448.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="495.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="514.5">CPU/运算器设计</tspan></text>
+<rect x="661" y="495.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="514.4">数据通路 / 控制器</tspan></text>
+<rect x="876" y="495.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="514.2">计算机组成与结构(核心)</tspan></text>
+<rect x="231" y="491.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="536.5">运算与控制</tspan></text>
+<path d="M223,575.0 C227.0,575.0 227.0,533.0 231,533.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,512.0 C442.0,512.0 442.0,512.0 446,512.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,512.0 C656.0,512.0 656.0,512.0 661,512.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,512.0 C871.0,512.0 871.0,512.0 876,512.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="537.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="556.5">指令系统与微程序</tspan></text>
+<rect x="661" y="537.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="556.4">指令集 / 微架构</tspan></text>
+<rect x="876" y="537.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="556.2">计算机组成与结构；体系结构设计(迁移)</tspan></text>
+<path d="M438,554.0 C442.0,554.0 442.0,554.0 446,554.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,554.0 C656.0,554.0 656.0,554.0 661,554.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,554.0 C871.0,554.0 871.0,554.0 876,554.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="579.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="598.5">存储器层次设计</tspan></text>
+<rect x="661" y="579.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="598.4">Cache / 内存</tspan></text>
+<rect x="876" y="579.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="598.2">计算机组成与结构</tspan></text>
+<rect x="231" y="575.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="620.5">存储与I/O</tspan></text>
+<path d="M223,575.0 C227.0,575.0 227.0,617.0 231,617.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,596.0 C442.0,596.0 442.0,596.0 446,596.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,596.0 C656.0,596.0 656.0,596.0 661,596.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,596.0 C871.0,596.0 871.0,596.0 876,596.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="621.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="640.5">I/O与总线接口</tspan></text>
+<rect x="661" y="621.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="640.4">总线 / 中断</tspan></text>
+<rect x="876" y="621.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="640.2">计算机组成与结构；嵌入式接口</tspan></text>
+<path d="M438,638.0 C442.0,638.0 442.0,638.0 446,638.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,638.0 C656.0,638.0 656.0,638.0 661,638.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,638.0 C871.0,638.0 871.0,638.0 876,638.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="685.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="704.5">Verilog组合/时序逻辑</tspan></text>
+<rect x="661" y="685.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="704.4">HDL / 状态机</tspan></text>
+<rect x="876" y="685.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="704.2">FPGA数字系统与逻辑设计(核心)</tspan></text>
+<rect x="231" y="681.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="726.5">数字逻辑设计</tspan></text>
+<path d="M223,765.0 C227.0,765.0 227.0,723.0 231,723.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,702.0 C442.0,702.0 442.0,702.0 446,702.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,702.0 C656.0,702.0 656.0,702.0 661,702.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,702.0 C871.0,702.0 871.0,702.0 876,702.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="727.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="746.5">IP核与接口设计</tspan></text>
+<rect x="661" y="727.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="746.4">IP复用 / 接口</tspan></text>
+<rect x="876" y="727.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="746.2">FPGA数字系统；嵌入式接口</tspan></text>
+<path d="M438,744.0 C442.0,744.0 442.0,744.0 446,744.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,744.0 C656.0,744.0 656.0,744.0 661,744.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,744.0 C871.0,744.0 871.0,744.0 876,744.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="769.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="788.5">信号处理硬件加速</tspan></text>
+<rect x="661" y="769.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="788.4">并行 / 流水线</tspan></text>
+<rect x="876" y="769.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="788.2">FPGA数字系统；智科Z3雷达协作</tspan></text>
+<rect x="231" y="765.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="810.5">硬加速与信号处理</tspan></text>
+<path d="M223,765.0 C227.0,765.0 227.0,807.0 231,807.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,786.0 C442.0,786.0 442.0,786.0 446,786.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,786.0 C656.0,786.0 656.0,786.0 661,786.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,786.0 C871.0,786.0 871.0,786.0 876,786.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="811.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="830.5">逻辑分析仪调试</tspan></text>
+<rect x="661" y="811.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="830.4">时序分析</tspan></text>
+<rect x="876" y="811.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="830.2">FPGA数字系统(实验)</tspan></text>
+<path d="M438,828.0 C442.0,828.0 442.0,828.0 446,828.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,828.0 C656.0,828.0 656.0,828.0 661,828.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,828.0 C871.0,828.0 871.0,828.0 876,828.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="875.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="894.5">进程/内存管理</tspan></text>
+<rect x="661" y="875.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="894.4">调度 / 虚拟内存</tspan></text>
+<rect x="876" y="875.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="894.2">操作系统(核心)</tspan></text>
+<rect x="231" y="871.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="916.5">OS原理</tspan></text>
+<path d="M223,955.0 C227.0,955.0 227.0,913.0 231,913.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,892.0 C442.0,892.0 442.0,892.0 446,892.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,892.0 C656.0,892.0 656.0,892.0 661,892.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,892.0 C871.0,892.0 871.0,892.0 876,892.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="917.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="936.5">文件系统</tspan></text>
+<rect x="661" y="917.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="936.4">FS / I/O</tspan></text>
+<rect x="876" y="917.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="936.2">操作系统；计算机组成与结构</tspan></text>
+<path d="M438,934.0 C442.0,934.0 442.0,934.0 446,934.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,934.0 C656.0,934.0 656.0,934.0 661,934.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,934.0 C871.0,934.0 871.0,934.0 876,934.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="959.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="978.5">设备驱动开发</tspan></text>
+<rect x="661" y="959.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="978.4">驱动框架</tspan></text>
+<rect x="876" y="959.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="978.2">操作系统；嵌入式Linux</tspan></text>
+<rect x="231" y="955.0" width="207" height="84" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#92400e" text-anchor="middle" font-weight="bold"><tspan x="334.5" y="1000.5">驱动与实验</tspan></text>
+<path d="M223,955.0 C227.0,955.0 227.0,997.0 231,997.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M438,976.0 C442.0,976.0 442.0,976.0 446,976.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,976.0 C656.0,976.0 656.0,976.0 661,976.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,976.0 C871.0,976.0 871.0,976.0 876,976.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="446" y="1001.0" width="205" height="32" rx="6" fill="#fff7ed" stroke="#fb923c" stroke-width="1.2"/><text font-size="11" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#7c2d12" text-anchor="middle" ><tspan x="548.5" y="1020.5">内核实验与裁剪</tspan></text>
+<rect x="661" y="1001.0" width="205" height="32" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.2"/><text font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#14532d" text-anchor="middle" ><tspan x="763.5" y="1020.4">裁剪 / 移植</tspan></text>
+<rect x="876" y="1001.0" width="205" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2"/><text font-size="10" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#1e3a8a" text-anchor="middle" ><tspan x="978.5" y="1020.2">嵌入式Linux；行业嵌入式(共享)</tspan></text>
+<path d="M438,1018.0 C442.0,1018.0 442.0,1018.0 446,1018.0" fill="none" stroke="#d97706" stroke-width="1.4" />
+<path d="M651,1018.0 C656.0,1018.0 656.0,1018.0 661,1018.0" fill="none" stroke="#fb923c" stroke-width="1.4" />
+<path d="M866,1018.0 C871.0,1018.0 871.0,1018.0 876,1018.0" fill="none" stroke="#22c55e" stroke-width="1.4" />
+<rect x="16" y="1010" width="1075" height="34" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+<rect x="30" y="1018" width="16" height="12" rx="3" fill="#fef3c7" stroke="#92400e"/>
+<text x="52" y="1028" font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#475569" text-anchor="start">系统</text>
+<rect x="116" y="1018" width="16" height="12" rx="3" fill="#fef3c7" stroke="#d97706"/>
+<text x="138" y="1028" font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#475569" text-anchor="start">子系统</text>
+<rect x="202" y="1018" width="16" height="12" rx="3" fill="#fff7ed" stroke="#fb923c"/>
+<text x="224" y="1028" font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#475569" text-anchor="start">功能</text>
+<rect x="288" y="1018" width="16" height="12" rx="3" fill="#f0fdf4" stroke="#22c55e"/>
+<text x="310" y="1028" font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#475569" text-anchor="start">知识点</text>
+<rect x="374" y="1018" width="16" height="12" rx="3" fill="#eff6ff" stroke="#3b82f6"/>
+<text x="396" y="1028" font-size="10.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#475569" text-anchor="start">课程</text>
+<text x="1081" y="1028" font-size="9.5" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif" fill="#94a3b8" text-anchor="end">生成：2026-09-27 · OBE反向设计 · 连线表示「分解/映射」依赖</text>
+</svg>

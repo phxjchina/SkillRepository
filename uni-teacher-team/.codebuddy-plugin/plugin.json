@@ -1,0 +1,113 @@
+{
+  "name": "uni-teacher-team",
+  "version": "1.0.0",
+  "description": "A collaborative AI agent team for university teachers: teaching, curriculum, capstone, research, grants, and administration.",
+  "author": {
+    "name": "Peng Lab",
+    "email": "local-only@workbuddy"
+  },
+  "agents": [
+    "./agents/uni-teacher-team-lead.md",
+    "./agents/ke-zhijiao.md",
+    "./agents/fang-yucheng.md",
+    "./agents/bi-fangcheng.md",
+    "./agents/zhen-yanzhen.md",
+    "./agents/shen-xiangda.md",
+    "./agents/zheng-qitong.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "uni-teacher-team-lead",
+  "teamInfo": {
+    "leadAgent": "uni-teacher-team-lead",
+    "memberAgents": [
+      "ke-zhijiao",
+      "fang-yucheng",
+      "bi-fangcheng",
+      "zhen-yanzhen",
+      "shen-xiangda",
+      "zheng-qitong"
+    ]
+  },
+
+  "displayName": {
+    "en": "University Teacher Agent Team",
+    "zh": "高校教师智能工作团"
+  },
+  "profession": {
+    "en": "University Teacher Agent Team",
+    "zh": "高校教师智能工作团"
+  },
+  "displayDescription": {
+    "en": "A teacher's AI team covering teaching, curriculum, capstone, research, grants and admin, routed by a coordinator.",
+    "zh": "覆盖授课、培养方案、毕设、科研、项目申报与系务产学研的高校教师AI协作团，由统筹主理人统一调度。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "我是您的智能工作团主理人席统之，请告诉我今天要处理哪类事务：授课备课、培养方案、毕业设计、科研论文、项目申报，还是系务与产学研？",
+    "en": "I am your team coordinator. What shall we handle today: teaching, curriculum, capstone, research, grants, or administration?"
+  },
+  "plugin": "uni-teacher-team",
+  "tags": [
+    { "en": "Teaching", "zh": "授课教学" },
+    { "en": "Curriculum & Research", "zh": "培养与科研" },
+    { "en": "Admin & Grants", "zh": "行政与申报" }
+  ],
+  "quickPrompts": [
+    { "en": "I am your team coordinator. What shall we handle today: teaching, curriculum, capstone, research, grants, or administration?", "zh": "我是您的智能工作团主理人席统之，请告诉我今天要处理哪类事务：授课备课、培养方案、毕业设计、科研论文、项目申报，还是系务与产学研？" },
+    { "en": "Review our training program / major plan", "zh": "审阅本科专业人才培养方案" },
+    { "en": "Draft a grant proposal or admin doc", "zh": "起草项目申报书或系务公文" }
+  ],
+  "members": [
+    {
+      "id": "uni-teacher-team-lead",
+      "displayName": { "en": "Xi Tongzhi", "zh": "席统之" },
+      "profession": { "en": "Academic Operations Director", "zh": "教务统筹总监" },
+      "avatar": "avatars/uni-teacher-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "ke-zhijiao",
+      "displayName": { "en": "Ke Zhijiao", "zh": "柯知教" },
+      "profession": { "en": "Lecturer", "zh": "授课讲师" },
+      "avatar": "avatars/ke-zhijiao.png",
+      "role": "member"
+    },
+    {
+      "id": "fang-yucheng",
+      "displayName": { "en": "Fang Yucheng", "zh": "方育成" },
+      "profession": { "en": "Curriculum Architect", "zh": "专业建设师" },
+      "avatar": "avatars/fang-yucheng.png",
+      "role": "member"
+    },
+    {
+      "id": "bi-fangcheng",
+      "displayName": { "en": "Bi Fangcheng", "zh": "毕方成" },
+      "profession": { "en": "Capstone Advisor", "zh": "毕设导师" },
+      "avatar": "avatars/bi-fangcheng.png",
+      "role": "member"
+    },
+    {
+      "id": "zhen-yanzhen",
+      "displayName": { "en": "Zhen Yanzhen", "zh": "甄研真" },
+      "profession": { "en": "Research Lead", "zh": "科研主理" },
+      "avatar": "avatars/zhen-yanzhen.png",
+      "role": "member"
+    },
+    {
+      "id": "shen-xiangda",
+      "displayName": { "en": "Shen Xiangda", "zh": "申项达" },
+      "profession": { "en": "Grant Writer", "zh": "项目申报师" },
+      "avatar": "avatars/shen-xiangda.png",
+      "role": "member"
+    },
+    {
+      "id": "zheng-qitong",
+      "displayName": { "en": "Zheng Qitong", "zh": "政企通" },
+      "profession": { "en": "Ops & Industry Lead", "zh": "行政与产学研主管" },
+      "avatar": "avatars/zheng-qitong.png",
+      "role": "member"
+    }
+  ]
+}
