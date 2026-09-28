@@ -1,7 +1,7 @@
 ---
 name: github-skill-repo-sync
-description: 把本机 ~/.workbuddy/skills/ 下的技能同步（clone→复制→commit→push）到彭老师的 GitHub 技能仓库 phxjchina/SkillRepository。当用户说"同步到 github 技能仓库""推送技能""把技能上传到 SkillRepository""同步技能仓库""上传到 github"时使用。覆盖：ghproxy 只读镜像读取、直连 github.com 强制 IPv4、GCM 免 PAT 推送、临时副本损坏时的重建、PAT 权限排查，以及 github.com 被墙时改走 GitHub Data API 的增量推送兜底。
-version: 1.2.0
+description: 把本机 ~/.workbuddy/skills/ 下的技能同步（clone→复制→commit→push）到彭老师的 GitHub 技能仓库 phxjchina/SkillRepository。当用户说"同步到 github 技能仓库""推送技能""把技能上传到 SkillRepository""同步技能仓库""上传到 github"时使用。覆盖：ghproxy 只读镜像读取、直连 github.com 强制 IPv4、GCM 免 PAT 推送、临时副本损坏时的重建、PAT 权限排查，以及 github.com 被墙时改走 GitHub Data API 的增量推送兜底。**推送前强制脱敏（sanitize.js + 私有词表）是本流程的硬性步骤，见核心事实 10。**
+version: 1.3.0
 author: 小布
 agent_created: true
 ---
@@ -27,6 +27,11 @@ agent_created: true
 7. **PAT 权限**：Fine-grained 选本仓库 `Contents: Read and write` 即可；无写权限的 PAT 会 403。
 8. **sparse-checkout**：旧本地副本可能是 sparse（`/*` + `!/*/`，只检根文件）；**全新 clone 是 full checkout，无此限制**，直接 `git add <子目录>` 即可。
 9. **仓库局部配置要重做**（重装/新 clone 后）：`user.name=phxjchina`、`user.email=user@example.com`、`http(s).proxy=127.0.0.1:7897`。
+10. **隐私红线：推送前强制脱敏（不可跳过）**。架构为「引擎 + 私有词表」分离：
+    - **引擎** `scripts/sanitize.js`（随仓库公开，**本身不含任何真实名词**）：扫描文本文件做替换；`--check` 只查不改，有残留 exit 1。
+    - **词表** `~/.workbuddy/sanitize-words.json`（**私有文件，绝不复制/提交到任何仓库**）：真实校名/人名/课程名/邮箱/项目代号等替换映射 + 正则模式都在这里；可用 `SANITIZE_WORDS` 环境变量覆盖路径。
+    - **铁律**：发现新的真实名词（新同事名、新项目代号、新邮箱…）→ **只加进词表**，绝不写进引擎、绝不随任何 commit 泄出；映射串长的放前面（防止短串先替换破坏长串）。
+    - **流程约束**：标准流程 step 2.5 必跑 sanitize.js；推送前 `--check` 必须输出「干净」且 exit=0，否则**禁止 push**（git push 与 Data API 兜底一律如此）。
 
 ## 判定哪些技能该同步（自建 vs 第三方）
 
@@ -49,8 +54,9 @@ agent_created: true
 ```bash
 SKILLS="C:/Users/Administrator/.workbuddy/skills"
 SRC_REPO="https://ghproxy.net/https://github.com/phxjchina/SkillRepository.git"   # 读走镜像
-DST_REPO_DIR="C:/Users/Administrator/SkillRepository"                              # 用 Windows 路径
+DST_REPO_DIR="C:/Users/Administrator/.workbuddy/SkillRepository"                              # 用 Windows 路径
 DIRECT="https://github.com/phxjchina/SkillRepository.git"
+SANITIZE_JS="$DST_REPO_DIR/github-skill-repo-sync/scripts/sanitize.js"             # 脱敏引擎（随仓库分发，本身无真实名词）
 PY="C:/Users/Administrator/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 
 # 0) 确保没有 ghproxy 改写规则（有就 unset）
@@ -77,6 +83,10 @@ fi
 cp -r "$SKILLS/<skill-a>" "$DST_REPO_DIR/"
 cp -r "$SKILLS/<skill-b>" "$DST_REPO_DIR/"
 rm -rf "$DST_REPO_DIR"/*/scripts/__pycache__
+
+# 2.5) 强制脱敏（隐私红线，不可跳过——见核心事实 10；词表 ~/.workbuddy/sanitize-words.json 私有不入库）
+"C:/Users/Administrator/.workbuddy/binaries/node/versions/22.22.2-3/node.exe" "$SANITIZE_JS" "$DST_REPO_DIR"
+# 输出会列出替换的文件与处数；若报「词表为空，拒绝执行」说明词表缺失/被清空，必须先恢复词表，禁止继续
 
 # 3) 提交（重装后首次需配身份）
 cd "$DST_REPO_DIR"
@@ -108,6 +118,7 @@ fi
 - token 从 GCM 取：`printf "protocol=https\nhost=github.com\n" | git credential fill` → 取 `password=` 一行。
 - 流程：逐文件建 blob（base64）→ 建 tree（带 base_tree）→ 建 commit（`parents`=父 sha）→ `PATCH /git/refs/heads/main`（`force: false`）。
 - **推送后必须用 API 核实**：`GET /contents/?ref=main` 确认新项在、旧项没丢。
+- **Data API 推送同样受隐私红线约束**：推送前必须已对本地目录跑过 sanitize.js（标准流程 step 2.5 已覆盖；若单独用本脚本直接推新目录，先手动 `node scripts/sanitize.js <目录>` 再推）。
 - API 直传字节、不经过 git 的 CRLF 规范化，故远程文件为 LF；日后网络恢复用 git push 可能出现 diff，属正常现象，不用惊慌。
 
 一行调用（**推荐用环境变量传入，无需改脚本内常量**；ROOT 已在脚本内固定为 `C:/Users/Administrator/.workbuddy/SkillRepository`）：
@@ -126,6 +137,13 @@ MSG="docs(github-skill-repo-sync): Node 版 Data API 兜底脚本 + 直连探测
 
 ## 核验（必做）
 ```bash
+# ① 隐私核验（硬门槛：不通过禁止 push）
+"C:/Users/Administrator/.workbuddy/binaries/node/versions/22.22.2-3/node.exe" \
+  "C:/Users/Administrator/.workbuddy/SkillRepository/github-skill-repo-sync/scripts/sanitize.js" \
+  --check "C:/Users/Administrator/.workbuddy/SkillRepository"
+# 必须输出「干净」且 exit=0；有残留 → 把新名词补进 ~/.workbuddy/sanitize-words.json 后重跑 replace + --check
+
+# ② 远程状态核验
 git ls-remote --heads "https://ghproxy.net/https://github.com/phxjchina/SkillRepository.git"
 # 远程 main 哈希应等于本地刚提交的哈希
 git -C "$DST_REPO_DIR" ls-tree -r --name-only <提交哈希> | grep -E "<skill-a>/|<skill-b>/"
@@ -143,6 +161,8 @@ git -C "$DST_REPO_DIR" ls-tree -r --name-only <提交哈希> | grep -E "<skill-a
 | `fatal: not a git repository`（.git 存在） | 临时副本损坏 | 重建新 clone |
 | `cannot change to '/c/tmp/...'` | MSYS 路径 | 用 `C:/tmp/...` Windows 形式 |
 | `Updates were rejected ... fetch first` | 远程领先本地 | 重新 clone（或 fetch 真实远端后 rebase）再推 |
+| `--check` 报残留（列出命中词与文件） | 词表缺新出现的真实名词 | 新名词加进 `~/.workbuddy/sanitize-words.json`（**只改词表，不改引擎**），重跑 replace + `--check`；绝不把真实名词写进任何提交 |
+| sanitize 报「词表为空，拒绝执行」 | `~/.workbuddy/sanitize-words.json` 缺失或被清空 | **禁止推送**；先恢复词表（或用 `SANITIZE_WORDS` 指向正确路径）再走流程 |
 
 ## 边界
 - 本技能只做同步；技能内容本身的设计/校验另见 `program-director-plan`、`dept-head-review` 等。
