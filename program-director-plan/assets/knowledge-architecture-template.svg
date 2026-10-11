@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  知识架构大图 SVG 骨架模板（program-director-plan skill 配套资产）
+  ============================================================
+  五列 x 坐标约定：
+    系统(列1)      x≈120
+    子系统(列2)    x≈334
+    功能/能力(列3) x≈548
+    知识点(列4)    x≈764
+    课程(列5)      x≈978
+  编号规则：系统=S1/Z1/J1；子系统=S1.1；能力=S1.1.1；知识点=S1.1.1.1
+  前缀：S=人工智能  Z=智能科学与技术  J=计算机科学与技术
+  绘制要求：
+    - 系统框内写"编号 + 名称"
+    - 用箭头(<line marker-end="url(#arrow)">)表达 分解(列内向下) 与 映射(列间向右)
+    - 复制"系统→子系统→能力→知识点→课程"一组，纵向排布多个系统即可
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="840" viewBox="0 0 1120 840" font-family="SimHei, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <!-- 列标题 -->
+  <g font-size="20" font-weight="bold" text-anchor="middle" fill="#1f3b66">
+    <text x="120" y="40">系统 System</text>
+    <text x="334" y="40">子系统 Subsystem</text>
+    <text x="548" y="40">功能/能力 Capability</text>
+    <text x="764" y="40">知识点 Knowledge</text>
+    <text x="978" y="40">课程 Course</text>
+  </g>
+
+  <!-- 示例：一列五框（复制此组纵向排布多个系统） -->
+  <g font-size="14">
+    <rect x="40"  y="80" width="160" height="48" rx="6" fill="#e8f0fb" stroke="#1f3b66"/>
+    <text x="120" y="109" text-anchor="middle">S1 系统名称</text>
+
+    <rect x="254" y="80" width="160" height="48" rx="6" fill="#eaf6ec" stroke="#2e7d4f"/>
+    <text x="334" y="109" text-anchor="middle">S1.1 子系统</text>
+
+    <rect x="468" y="80" width="160" height="48" rx="6" fill="#fff4e0" stroke="#c8861a"/>
+    <text x="548" y="109" text-anchor="middle">S1.1.1 能力点</text>
+
+    <rect x="684" y="80" width="160" height="48" rx="6" fill="#fdeef0" stroke="#b23b4e"/>
+    <text x="764" y="109" text-anchor="middle">S1.1.1.1 知识点</text>
+
+    <rect x="898" y="80" width="160" height="48" rx="6" fill="#f0eefb" stroke="#5b3b9e"/>
+    <text x="978" y="109" text-anchor="middle">课程/§章节</text>
+  </g>
+
+  <!-- 示例箭头：列间分解与映射 -->
+  <g stroke="#333333" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <line x1="200" y1="104" x2="252" y2="104"/>
+    <line x1="414" y1="104" x2="466" y2="104"/>
+    <line x1="628" y1="104" x2="682" y2="104"/>
+    <line x1="844" y1="104" x2="896" y2="104"/>
+  </g>
+
+  <!-- TODO: 复制上面"系统→...→课程"一组，纵向排布多个系统；同一系统下的子系统/能力/知识点可多行向下展开 -->
+</svg>
