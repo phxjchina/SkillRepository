@@ -161,7 +161,7 @@ def render(rows, teacher_conflicts, room_conflicts, missing_teacher):
             out.append(f"| {r['line']} | {r['课程']} | {r['星期']} | {r['节次']} | {r['教室']} |")
         out.append("")
 
-    out.append("> 冲突须在曹副主任修改、主任拍板前清零。")
+    out.append("> 冲突须在曹敬馨修改、主任拍板前清零。")
     out.append("")
     return "\n".join(out)
 
